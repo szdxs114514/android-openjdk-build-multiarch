@@ -1,14 +1,13 @@
 # mobile-openjdk8-build-multiarch 
 
-Based on http://openjdk.java.net/projects/mobile/android.html
+基于http://openjdk.java.net/projects/mobile/android.html构建
 
-## Building 
+## 构建准备 
 
-### Setup
+### 开始
 #### Android
-- Download Android NDK r10e from https://developer.android.com/ndk/downloads/older_releases.html and place it in this directory (Can't automatically download because of EULA)
-- **Warning**: Do not attempt to build use newer or older NDK, it will lead to compilation errors.
-
+- 下载 Android NDK r10e 地址→ https://developer.android.com/ndk/downloads/older_releases.html
+- 
 #### iOS
 - You should get latest Xcode (tested with Xcode 12).
 
