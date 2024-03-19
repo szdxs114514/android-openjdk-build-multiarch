@@ -7,11 +7,11 @@
 ### 开始
 #### Android
 - 下载 Android NDK r10e 地址→ https://developer.android.com/ndk/downloads/older_releases.html
-- 
+  
 #### iOS
-- You should get latest Xcode (tested with Xcode 12).
+-  使用Xcode12构建
 
-### Platform and architecture specific environment variables
+### 特定于平台和体系结构的环境变量
 <table>
       <thead>
         <tr>
@@ -53,7 +53,7 @@
       </tbody>
 	</table>
 
-### Run in this directory:
+### 运行(构建)脚本:
 ```
 export BUILD_IOS=1 # only when targeting iOS, default is 0 (target Android)
 
